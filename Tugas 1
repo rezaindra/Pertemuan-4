@@ -1,0 +1,54 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int bil1,bil2;
+    int pilih;
+    float hasil;
+    {
+        cout<<"Masukan pilihan\n 1. Bagi\n 2. Kali\n 3. Kurang\n 4. Tambah\n Pilihan : ";
+        cin>> pilih;
+        switch (pilih)
+        {
+            case 1:
+            cout<<"Masukkan angka 1 : ";
+            cin>> bil1;
+            cout<<"Masukkan angka 2 : ";
+            cin>> bil2;
+            hasil=bil1/bil2;
+            cout<<"Hasil Bagi : " <<hasil <<endl;
+            break;
+            
+            case 2:
+            cout<<"Masukkan angka 1 : ";
+            cin>> bil1;
+            cout<<"Masukkan angka 2 : ";
+            cin>> bil2;
+            hasil=bil1*bil2;
+            cout<<"Hasil Kali : " <<hasil <<endl;
+            break;
+            
+            case 3:
+            cout<<"Masukkan angka 1 : ";
+            cin>> bil1;
+            cout<<"Masukkan angka 2 : ";
+            cin>> bil2;
+            hasil=bil1-bil2;
+            cout<<"Hasil Kurang : " <<hasil <<endl;
+            break;
+            
+            case 4:
+            cout<<"Masukkan angka 1 : ";
+            cin>> bil1;
+            cout<<"Masukkan angka 2 : ";
+            cin>> bil2;
+            hasil=bil1+bil2;
+            hasil=bil1+bil2;
+            cout<<"Hasil Tambah : " <<hasil <<endl;
+            break;
+        }
+
+    }
+    return 0;
+}
